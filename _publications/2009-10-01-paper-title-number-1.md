@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2025-12
+date: 2025-12-26
 venue: '64'
 # slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://ieeexplore.ieee.org/document/11310837/'
