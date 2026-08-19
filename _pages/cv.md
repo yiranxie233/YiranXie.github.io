@@ -9,56 +9,31 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+教育
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* 上海电力大学, 新一代电子信息技术, 2023-2026, 硕士
+* 太原工业学院, 电子信息工程, 2019-2023, 本科
 
-Work experience
+实习经历
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2025.11-2026-02: 数据分析师
+  * 北京国交信通-数据应用事业部
+  * 主要工作
+    - 通过数据分析进行报告撰写，算法设计实现装卸货港口的推断，利用现有数据进行海运相关数据的拟合。
+    - 在Tableau中利用数据库根据历史航次数据对进口中国的各种货物的货运量进行统计，并根据数据撰写相应的年度报告，同时针对个别关心的地区（如中东）进行相应数据的分析并从多个维度进行报告的编写。
+    - 参与全球战略物资海运供应链精准标识与轨迹分析(国家重点研发计划“地球观测与导航”重点专项)利用数据库中的货物报关数据信息结合历史航次数据设计算法实现货物装卸货港口以及泊位的推断，同时由于数据库中船舶数据由于记录手动存在一定的错误造成数据写入和装卸货推断存在问题，设计相应的算法对干扰数据进行过滤从而保证装卸货推断正确。
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
   
-Skills
+技能
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 精通
+  - Python, Langchain, Langgraph，Pytorch，Office，Tableau
+* 掌握
+  - Linux，SQL，C/C++
 
-Publications
+出版刊物
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
