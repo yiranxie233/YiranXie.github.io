@@ -7,7 +7,7 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
+locale                   : "zh-CN"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "解一然"
 title_separator          : "-"
@@ -23,7 +23,7 @@ repository               : "yiranxie233.github.io/YiranXie.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "解一然"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
