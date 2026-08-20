@@ -3,7 +3,7 @@ title: "UAV Cross-Domain Detection in IoT-Enabled Environments via Class-Aware C
 collection: publications
 category: manuscripts
 permalink: /publication/2025-12-16-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
+# excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
 date: 2025-12-16
 venue: ' Volume: 13, Issue: 5'
 # slidesurl: 'https://academicpages.github.io/files/slides2.pdf'

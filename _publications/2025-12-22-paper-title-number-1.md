@@ -3,7 +3,7 @@ title: "Local Saliency-Guided Dynamic Matching for Cross-Modal Remote Sensing Im
 collection: publications
 category: manuscripts
 permalink: /publication/2025-12-22-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+# excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2025-12-22
 venue: '64'
 # slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
