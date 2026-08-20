@@ -10,7 +10,7 @@
 main:
 
   - title: "个人背景"
-      url: /cv/
+    url: /cv/
 
   - title: "出版文章"
     url: /publications/
