@@ -1,12 +1,21 @@
 ---
 layout: archive
-title: "Teaching"
+title: "项目经历"
 permalink: /teaching/
 author_profile: true
 ---
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<p class="projects-intro">
+  围绕大模型应用、智能体编排、检索增强生成与多模态学习，记录从方案设计、工程实现到评测优化的代表性实践。
+</p>
+
+{% assign projects = site.teaching | sort: "date" | reverse %}
+<div class="projects-list">
+  {% for post in projects %}
+    {% include project-card.html project=post %}
+  {% else %}
+    <p class="projects-empty">项目内容正在整理中。</p>
+  {% endfor %}
+</div>

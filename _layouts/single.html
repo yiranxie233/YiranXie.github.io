@@ -35,7 +35,17 @@ layout: default
         {% endif %}
         
         {% if page.collection == 'teaching' %}
-          <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <div class="project-detail__meta" aria-label="项目概览">
+            {% if page.type %}<span class="project-detail__type">{{ page.type }}</span>{% endif %}
+            {% if page.period %}<span><strong>周期</strong>{{ page.period }}</span>{% endif %}
+            {% if page.role %}<span><strong>角色</strong>{{ page.role }}</span>{% endif %}
+            {% if page.venue %}<span><strong>场景</strong>{{ page.venue }}</span>{% endif %}
+          </div>
+          {% if page.stack and page.stack != empty %}
+            <ul class="project-detail__stack" aria-label="技术栈">
+              {% for technology in page.stack %}<li>{{ technology }}</li>{% endfor %}
+            </ul>
+          {% endif %}
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}

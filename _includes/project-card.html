@@ -1,0 +1,55 @@
+{% include base_path %}
+{% assign project = include.project %}
+
+<article class="project-card">
+  <header class="project-card__header">
+    {% if project.type or project.period %}
+      <div class="project-card__meta">
+        {% if project.type %}
+          <span class="project-card__type">{{ project.type }}</span>
+        {% endif %}
+        {% if project.period %}
+          <span class="project-card__period">{{ project.period }}</span>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <h2 class="project-card__title">
+      <a href="{{ base_path }}{{ project.url }}">{{ project.title }}</a>
+    </h2>
+
+    {% if project.role %}
+      <p class="project-card__role"><strong>项目角色：</strong>{{ project.role }}</p>
+    {% endif %}
+  </header>
+
+  {% if project.excerpt %}
+    <p class="project-card__summary">{{ project.excerpt | markdownify | strip_html | strip_newlines }}</p>
+  {% endif %}
+
+  {% if project.stack %}
+    {% if project.stack != empty %}
+      <div class="project-card__stack">
+        <span class="project-card__stack-label">技术栈</span>
+        <ul aria-label="技术栈">
+          {% for technology in project.stack %}
+            <li>{{ technology }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+  {% elsif project.venue %}
+      <div class="project-card__stack">
+        <span class="project-card__stack-label">技术栈</span>
+        <ul aria-label="技术栈">
+          <li>{{ project.venue }}</li>
+        </ul>
+      </div>
+  {% endif %}
+
+  <footer class="project-card__footer">
+    <a class="project-card__link" href="{{ base_path }}{{ project.url }}">
+      查看项目详情 <span aria-hidden="true">→</span>
+    </a>
+  </footer>
+</article>

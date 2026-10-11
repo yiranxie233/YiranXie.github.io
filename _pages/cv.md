@@ -1,7 +1,8 @@
 ---
 layout: archive
-title: "个人信息简介"
+title: "个人简介"
 permalink: /cv/
+excerpt: "解一然的教育背景、技术能力、项目方向与学术成果。"
 author_profile: true
 redirect_from:
   - /resume
@@ -9,31 +10,51 @@ redirect_from:
 
 {% include base_path %}
 
-教育
-======
-* 上海电力大学, 新一代电子信息技术, 2023-2026, 硕士
-* 太原工业学院, 电子信息工程, 2019-2023, 本科
+## 个人定位
 
-实习经历
-======
-* 2025.11-2026-02: 数据分析师
-  * 北京国交信通-数据应用事业部
-  * 主要工作
-    - 通过数据分析进行报告撰写，算法设计实现装卸货港口的推断，利用现有数据进行海运相关数据的拟合。
-    - 在Tableau中利用数据库根据历史航次数据对进口中国的各种货物的货运量进行统计，并根据数据撰写相应的年度报告，同时针对个别关心的地区（如中东）进行相应数据的分析并从多个维度进行报告的编写。
-    - 参与*全球战略物资海运供应链精准标识与轨迹分析*(**国家重点研发计划“地球观测与导航”重点专项**)利用数据库中的货物报关数据信息结合历史航次数据设计算法实现货物装卸货港口以及泊位的推断，同时由于数据库中船舶数据由于记录手动存在一定的错误造成数据写入和装卸货推断存在问题，设计相应的算法对干扰数据进行过滤从而保证装卸货推断正确。
+大模型应用与智能体开发方向，熟练使用 Python、LangChain、LangGraph 构建 RAG 知识库和多 Agent 系统，具备从文档解析、混合检索、重排优化到后端接口与前端展示的完整项目实践。
 
-  
-技能
-======
-* 精通
-  - Python, Langchain, Langgraph，Pytorch，Office，Tableau
-* 掌握
-  - Linux，SQL，C/C++
+## 教育背景
 
-出版刊物
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+### 上海电力大学 · 电子信息（新一代电子信息技术）硕士
+
+2023.09–2026.06 · GPA 4.21/5，专业排名前 5%
+
+主修课程：机器学习、矩阵论、现代数字信号处理技术、传感器技术。
+
+### 太原工业学院 · 电子信息工程学士
+
+2019.09–2023.07 · GPA 3.88/5，专业排名前 5%
+
+主修课程：信号与系统、线性代数、数字电路、数字信号处理、单片机。
+
+## 技术能力
+
+- **熟练掌握：** Python、LangChain、LangGraph、PyTorch
+- **熟悉使用：** Linux、SQL、FastAPI、爬虫
+- **项目实践：** FAISS、BM25、SQLite、PostgreSQL、FastMCP / MCP、Streamlit、Playwright、PaddleOCR、Ollama、Docker、Vue 3
+
+## 代表项目
+
+- [智能简历项目制作助手]({{ '/teaching/resume-project-agent/' | relative_url }})：围绕“一岗一简历”构建岗位采集、JD 拆解、简历结构化、匹配评分、候选生成、人工确认与文件导出的端到端 MVP。
+- [智能旅行规划助手]({{ '/teaching/ai-travel-planner/' | relative_url }})：基于 LangGraph 与 MCP 的多 Agent 旅行规划系统，结构化输出成功率 99.2%，端到端有效成功率 99.8%。
+- [智能 RAG 知识库问答助手]({{ '/teaching/rag-knowledge-base/' | relative_url }})：优化 PDF 解析、混合检索、重排、答案溯源与多用户隔离，支持 50+ 并发会话。
+- [遥感跨模态图文检索技术设计]({{ '/teaching/remote-sensing-retrieval/' | relative_url }})：使用 PyTorch、CLIP 开展多模态深度学习研究，相关成果发表于 SCI 一区期刊。
+- [环境光自适应河道垃圾检测系统]({{ '/teaching/river-waste-detection/' | relative_url }})：获第十九届中国研究生电子设计大赛三等奖。
+
+[查看完整项目经历]({{ '/teaching/' | relative_url }}){: .btn .btn--primary }
+
+## 奖励与成果
+
+- 校长奖学金，2026.04
+- 学业成果一等奖学金，2026.04
+- 研究生阶段课程一等奖学金，2024.12
+- 第十九届中国研究生电子设计大赛三等奖，2024.07
+- 研究生入学成绩一等奖学金，2023.10
+- 第十四届全国大学生数学竞赛（非数学类）二等奖，2023.01
+
+## 论文成果
+
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>

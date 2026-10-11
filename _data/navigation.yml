@@ -9,10 +9,10 @@
 
 main:
 
-  - title: "个人背景"
+  - title: "个人简介"
     url: /cv/
 
-  - title: "出版文章"
+  - title: "论文成果"
     url: /publications/
 
   # - title: "Talks"

@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2025-12-22-paper-title-number-1
 # excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2025-12-22
-venue: '64'
+venue: 'IEEE Transactions on Geoscience and Remote Sensing 64'
 # slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://ieeexplore.ieee.org/document/11310837/'
 citation: 'Shao, J., Xie, Y., Wang, P., & Feng, G. (2025). Local Saliency-Guided Dynamic Matching for Cross-Modal Remote Sensing Image–Text Retrieval. IEEE Transactions on Geoscience and Remote Sensing, 64, 1-15.'
