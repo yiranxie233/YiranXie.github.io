@@ -7,14 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
 <div class="profile-lead" markdown="1">
-
-我是一名面向实际业务问题的大模型应用开发者，关注 **RAG 知识库、LangGraph 多智能体编排、模型服务工程化与可信内容生成**。我习惯把一个想法推进为可以验证的完整闭环：从数据解析与检索评测，到后端接口、状态管理和前端交互。
-
-硕士毕业于上海电力大学电子信息（新一代电子信息技术）专业，GPA 4.21/5、专业排名前 5%。除智能体应用外，我也有 PyTorch、CLIP 多模态深度学习研究经历。
-
-</div>
 
 [查看项目经历]({{ '/teaching/' | relative_url }}){: .btn .btn--primary }
 [了解个人背景]({{ '/cv/' | relative_url }}){: .btn }
@@ -42,19 +35,19 @@ redirect_from:
 
 ## 精选项目
 
-### [智能简历项目制作助手]({{ '/teaching/resume-project-agent/' | relative_url }})
+### [智能简历项目制作助手](})
 
 使用 LangGraph、FastMCP 与 PostgreSQL 构建本地优先的简历智能体，串联岗位采集、JD 拆解、简历解析、多维匹配、人工确认和多格式导出，并对模型推导内容提供“待核实”标记与逐字段确认。
 
-### [智能旅行规划助手]({{ '/teaching/ai-travel-planner/' | relative_url }})
+### [智能旅行规划助手](})
 
 将景点、天气、酒店和行程规划拆分为协作 Agent，通过高德 MCP 获取真实外部数据，以 Pydantic 约束结构化输出，并用 FastAPI SSE 与 Vue 3 完成地图展示闭环。
 
-### [智能 RAG 知识库问答助手]({{ '/teaching/rag-knowledge-base/' | relative_url }})
+### [智能 RAG 知识库问答助手](})
 
 围绕 PDF 版面解析、FAISS + BM25 混合召回、Qwen3-Reranker 重排、答案溯源和多用户数据隔离优化知识库问答链路，检索答案均可追溯至源文档。
 
-[查看全部 5 个项目 →]({{ '/teaching/' | relative_url }}){: .btn .btn--primary }
+[查看全部 4 个项目 →]({{ '/teaching/' | relative_url }}){: .btn .btn--primary }
 
 ## 核心技术栈
 
