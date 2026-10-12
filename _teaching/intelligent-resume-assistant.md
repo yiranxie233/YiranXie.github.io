@@ -18,6 +18,7 @@ stack:
   - PaddleOCR
   - Ollama
 venue: "本地优先简历智能体"
+link: "https://github.com/yiranxie233/resume-agent"
 excerpt: "面向“一岗一简历”场景，覆盖岗位采集、JD 拆解、简历解析、匹配评分、候选生成、人工核实与多格式导出。"
 ---
 
