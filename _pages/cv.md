@@ -7,7 +7,6 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-
 {% include base_path %}
 
 ## 个人定位
@@ -39,7 +38,6 @@ redirect_from:
 - [智能简历项目制作助手]({{ '/teaching/resume-project-agent/' | relative_url }})：围绕“一岗一简历”构建岗位采集、JD 拆解、简历结构化、匹配评分、候选生成、人工确认与文件导出的端到端 MVP。
 - [智能旅行规划助手]({{ '/teaching/ai-travel-planner/' | relative_url }})：基于 LangGraph 与 MCP 的多 Agent 旅行规划系统，结构化输出成功率 99.2%，端到端有效成功率 99.8%。
 - [智能 RAG 知识库问答助手]({{ '/teaching/rag-knowledge-base/' | relative_url }})：优化 PDF 解析、混合检索、重排、答案溯源与多用户隔离，支持 50+ 并发会话。
-- [遥感跨模态图文检索技术设计]({{ '/teaching/remote-sensing-retrieval/' | relative_url }})：使用 PyTorch、CLIP 开展多模态深度学习研究，相关成果发表于 SCI 一区期刊。
 - [环境光自适应河道垃圾检测系统]({{ '/teaching/river-waste-detection/' | relative_url }})：获第十九届中国研究生电子设计大赛三等奖。
 
 [查看完整项目经历]({{ '/teaching/' | relative_url }}){: .btn .btn--primary }
