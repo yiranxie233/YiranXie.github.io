@@ -4,7 +4,7 @@ collection: teaching
 type: "RAG / 知识库问答"
 permalink: /teaching/rag-knowledge-base/
 date: 2025-07-01
-period: "2025.07-2026.05"
+period: "2025.07-2025.10"
 role: "项目参与：RAG 全链路优化"
 stack:
   - Python
